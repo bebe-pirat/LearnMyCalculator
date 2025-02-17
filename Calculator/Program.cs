@@ -40,7 +40,13 @@ namespace LearnMyCalculator
         {
             return 2 * Math.PI * radius;
         }
+        public double Sin(double x)
+        {
+            return Math.Sin(x);
+        }
     }
+
+        
 
     internal class Program
     {
