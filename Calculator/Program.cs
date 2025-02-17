@@ -27,6 +27,11 @@ namespace LearnMyCalculator
         {
             return x / y;
         }
+
+        static public double CircleArea(double radius)
+        {
+            return 2 * Math.PI * radius;
+        }
     }
 
     internal class Program

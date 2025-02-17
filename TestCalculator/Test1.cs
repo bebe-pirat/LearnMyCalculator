@@ -54,5 +54,18 @@ namespace TestCalculator
             // Assert
             Assert.AreEqual(1, actual);
         }
+
+        [TestMethod]
+        public void CircleAreaTest()
+        {
+            // Arrange
+            double radius = 5;
+            double expectedArea = Math.PI * radius * radius;
+            // Act
+            double actualArea = Calculator.CircleArea(radius);
+            // Assert
+            Assert.AreEqual(expectedArea, actualArea, 0.001);
+        }
+
     }
 }
