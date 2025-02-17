@@ -67,5 +67,18 @@ namespace TestCalculator
             Assert.AreEqual(expectedArea, actualArea, 0.001);
         }
 
+        [TestMethod]
+        public void DivideByZeroTest()
+        {
+            // Arrange
+            var calculator = new Calculator();
+
+            // Act
+            var actual = calculator.Divide(1, 0);
+
+            // Assert
+            Assert.IsNull(actual);
+        }
+
     }
 }
