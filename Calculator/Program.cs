@@ -45,7 +45,14 @@ namespace LearnMyCalculator
         {
             return Math.Cos(a);
         }
+        public double Sin(double x)
+        {
+            return Math.Sin(x);
+
+        }
     }
+
+        
 
     internal class Program
     {
