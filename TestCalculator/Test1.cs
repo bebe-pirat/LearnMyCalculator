@@ -80,5 +80,12 @@ namespace TestCalculator
             Assert.IsNull(actual);
         }
 
+        [TestMethod]
+        public void CosTest()
+        {
+            var actual = Calculator.Cos(Math.PI / 2);
+            Assert.AreEqual(0, actual, 0.001);
+        }
+
     }
 }

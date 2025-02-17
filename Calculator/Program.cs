@@ -40,6 +40,11 @@ namespace LearnMyCalculator
         {
             return 2 * Math.PI * radius;
         }
+
+        static public double Cos(double a)
+        {
+            return Math.Cos(a);
+        }
     }
 
     internal class Program
